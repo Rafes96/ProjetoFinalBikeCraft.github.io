@@ -1,8 +1,7 @@
-@import url('./global.css');
-@import url('/css/style.css');
-@import url('/css/header.css');
-@import url('/css/utilitarios.css');
-@import url('/css/introducao.css');
+@import url('global.css');
+@import url('header.css');
+@import url('utilitarios.css');
+@import url('introducao.css');
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
