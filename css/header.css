@@ -1,5 +1,7 @@
+@import url('./global.css');
 .header-bg{
-    background-color: #000;
+    background-color:var(--bg-primary-color);
+    padding: 20px;
 }
 
 .header{
@@ -14,4 +16,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.header-navbar ul li a{
+    text-decoration: none;
+    color: var(--font-primary-color);
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    font-weight: 600;
+    line-height: 1.125;
 }
